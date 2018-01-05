@@ -1,0 +1,167 @@
+@charset "EUC-KR";
+
+@import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+
+#menu {
+	float: left;
+	width: 10%;
+	margin-top: 50px;
+	margin-left: 20px;
+	font-family: "Jeju Myeongjo", serif;
+	color: #000;
+}
+
+#header {
+	width: 100%;
+	height: 20%;
+}
+
+.search {
+	border: 0;
+	outline: 0;
+	background: transparent;
+	border-bottom: 1px solid black;
+	width: 20%;
+	float: right;
+	margin-top: 15px;
+	margin-right: 3px;
+}
+.search input{
+	text-align: center; 
+	float: left;
+	 border: none;
+}
+#login{
+	margin: 100px; auto; width:60%; border: 1px solid; padding: 100px; border-radius:25px;
+}
+
+#content {
+	float: left;
+	width: 1000px;
+	font-family: "Jeju Myeongjo", serif;
+	padding-left: 70px; serif;
+	padding-left: 70px;
+	margin: 0 auto;
+}
+
+#best {
+	width: 100%;
+	margin-top: 50px;
+}
+
+#menu nav a {
+	color: #000;
+	text-decoration: none;
+}
+
+#menu nav a:hover {
+	color: blue;
+	text-decoration: underline;
+}
+
+#formcontainer {
+	width: 90%;
+}
+
+#productcontent {
+	padding: 80px;
+}
+
+#wrapper {
+	position: relative;
+	width: 1200px;
+	margin: 0px auto;
+	padding: 0px 30px 0px;
+}
+
+#box {
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px;
+}
+
+.nav-link {
+	font-family: "Jeju Myeongjo", serif;
+	color: #000;
+	text-decoration: none;
+}
+
+#nav-ul {
+	padding-top: 50px;
+}
+
+#img {
+	width: 400px;
+	float: left;
+	border: 1px solid;
+}
+
+#pic {
+	width: 50%;
+	float: left;
+}
+
+#detail {
+	width: 40%;
+	float: left;
+}
+
+#productnum {
+	float: left;
+	width: 300px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.value-button {
+	display: inline-block;
+	border: 1px solid #ddd;
+	margin: 0px;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	vertical-align: top;
+	padding: 11px 0;
+	background: #eee;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.value-button:hover {
+	cursor: pointer;
+}
+
+#decrease {
+	margin-right: -4px;
+	border-radius: 8px 0 0 8px;
+}
+
+#increase {
+	margin-left: -4px;
+	border-radius: 0 8px 8px 0;
+}
+
+form #input-wrap {
+	margin: 0px;
+	padding: 0px;
+}
+
+input#number {
+	text-align: center;
+	border: none;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	margin: 0px;
+	width: 40px;
+	height: 40px;
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
